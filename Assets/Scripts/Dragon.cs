@@ -9,34 +9,31 @@ public class Dragon : MonoBehaviour
     public Slider healthBar;
     public Animator animator;
     int currentHealth;
+    // Start is called before the first frame update
 
-    void Update()
-    {
+    void Update(){
         healthBar.value = currentHealth;
     }
+
 
     void Start()
     {
         currentHealth = maxHP;
     }
-
-    public void TakeDamage(int damageAmount)
-    {
+    public void TakeDamage(int damageAmount){
         currentHealth -= damageAmount;
-
-        if (currentHealth <= 0)
-        {
-            // Play death animation
+        if(currentHealth <= 0){
+            //Play death animation
             animator.SetTrigger("die");
             Debug.Log("die");
         }
-        else
-        {
-            // Play get hit animation
+        else{
+            //Play get hit animation
             animator.SetTrigger("damage");
             Debug.Log("damage");
         }
     }
+<<<<<<< HEAD
 /*
     // Chame esta função quando quiser realizar o ataque da garra
     public void PerformClawAttack()
@@ -48,4 +45,7 @@ public class Dragon : MonoBehaviour
         animator.SetTrigger("clawAttack");
     }
 */    
+=======
+    
+>>>>>>> parent of 3ba4050 (changes)
 }
