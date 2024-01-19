@@ -33,7 +33,7 @@ public class Dragon : MonoBehaviour
             Debug.Log("damage");
         }
     }
-<<<<<<< HEAD
+
 /*
     // Chame esta função quando quiser realizar o ataque da garra
     public void PerformClawAttack()
@@ -45,7 +45,5 @@ public class Dragon : MonoBehaviour
         animator.SetTrigger("clawAttack");
     }
 */    
-=======
-    
->>>>>>> parent of 3ba4050 (changes)
+
 }
