@@ -23,7 +23,7 @@ public class ChaseState : StateMachineBehaviour
         if(distance > 15){
             animator.SetBool("isChasing", false);
         }
-        if(distance <2.5f){
+        if(distance < 2.5f){
             animator.SetBool("isAttacking", true);
         }
     }

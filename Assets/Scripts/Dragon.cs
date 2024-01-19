@@ -8,7 +8,6 @@ public class Dragon : MonoBehaviour
     private int maxHP = 100;
     public Slider healthBar;
     public Animator animator;
-    public DragonClawAttack clawAttack; // Adicione esta referência no Inspector
     int currentHealth;
 
     void Update()
@@ -38,7 +37,7 @@ public class Dragon : MonoBehaviour
             Debug.Log("damage");
         }
     }
-
+/*
     // Chame esta função quando quiser realizar o ataque da garra
     public void PerformClawAttack()
     {
@@ -48,4 +47,5 @@ public class Dragon : MonoBehaviour
         // Execute a animação de ataque da garra
         animator.SetTrigger("clawAttack");
     }
+*/    
 }

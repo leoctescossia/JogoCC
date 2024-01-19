@@ -7,13 +7,13 @@ public class ThirdPersonDamage : MonoBehaviour
 {
 
     public int playerHP = 100;
-    public bool isGameOver;
+    //public bool isGameOver;
     public Slider healthBar;
     int currentHealth;
     // Start is called before the first frame update
     void Start()
     {
-        isGameOver = false;
+        //isGameOver = false;
         currentHealth = playerHP;
     }
 
@@ -22,19 +22,21 @@ public class ThirdPersonDamage : MonoBehaviour
     {
         healthBar.value = currentHealth;
 
+        /*
         if(isGameOver)
         {
 
         }
+        */
     }
 
     public void TakeDamage(int damageAmount)
     {
-        playerHP -= damageAmount;
-        if(playerHP <= 0)
+        currentHealth -= damageAmount;
+        if(currentHealth <= 0)
         {
             Debug.Log("die");
-            isGameOver = true;
+            //isGameOver = true;
         }
     }
 }

@@ -169,7 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1194911288}
   animator: {fileID: 8818268}
-  clawAttack: {fileID: 0}
 --- !u!95 &8818268 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9545436, guid: 8252519d2c6fd014bb5f75765a8c4fda, type: 3}
@@ -1936,7 +1935,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   animator: {fileID: 0}
-  clawAttack: {fileID: 0}
 --- !u!195 &420329463
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5760,7 +5758,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
   animator: {fileID: 0}
-  clawAttack: {fileID: 0}
 --- !u!195 &1825645451
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6931,8 +6928,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4233722268014029853, guid: e017f20ad2b6ebc45ba8aa43a7f8ac8f, type: 3}
-      insertIndex: 4
-      addedObject: {fileID: 6982812147933622148}
+      insertIndex: 3
+      addedObject: {fileID: 4416926083347132241}
   m_SourcePrefab: {fileID: 100100000, guid: e017f20ad2b6ebc45ba8aa43a7f8ac8f, type: 3}
 --- !u!1001 &3888387345183094294
 PrefabInstance:
@@ -7047,20 +7044,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6982812147933622148
+--- !u!114 &4416926083347132241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4416926083347132227}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed7b67e3ddf1b3443a17b4db202d7a6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerHP: 100
-  isGameOver: 0
   healthBar: {fileID: 245110326}
 --- !u!1001 &7336866209644674313
 PrefabInstance:
