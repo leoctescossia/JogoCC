@@ -9,30 +9,51 @@ public class Dragon : MonoBehaviour
     public Slider healthBar;
     public Animator animator;
     int currentHealth;
+
+    // Referência ao script GenerateEnemies
+    private GenerateEnemies generateEnemies;
+
     // Start is called before the first frame update
-
-    void Update(){
-        healthBar.value = currentHealth;
-    }
-
-
     void Start()
     {
         currentHealth = maxHP;
+        generateEnemies = FindObjectOfType<GenerateEnemies>(); // Encontrar o script GenerateEnemies na cena
     }
-    public void TakeDamage(int damageAmount){
+
+    void Update()
+    {
+        healthBar.value = currentHealth;
+    }
+
+    public void TakeDamage(int damageAmount)
+    {
         currentHealth -= damageAmount;
-        if(currentHealth <= 0){
-            //Play death animation
+        if (currentHealth <= 0)
+        {
+            // Play death animation
             animator.SetTrigger("die");
             Debug.Log("die");
+
+            // Notificar o script GenerateEnemies sobre a morte do mob após 1 segundo
+            Invoke("NotifyEnemyDeath", 3f);
         }
-        else{
-            //Play get hit animation
+        else
+        {
+            // Play get hit animation
             animator.SetTrigger("damage");
             Debug.Log("damage");
         }
     }
-  
 
+    // Método para notificar o script GenerateEnemies sobre a morte do mob
+    void NotifyEnemyDeath()
+    {
+        if (generateEnemies != null)
+        {
+            generateEnemies.IncrementMobsKilled();
+        }
+
+        // Destruir o objeto Dragon após notificar o script GenerateEnemies
+        Destroy(gameObject);
+    }
 }
