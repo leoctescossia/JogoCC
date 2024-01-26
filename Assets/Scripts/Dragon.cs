@@ -56,4 +56,5 @@ public class Dragon : MonoBehaviour
         // Destruir o objeto Dragon após notificar o script GenerateEnemies
         Destroy(gameObject);
     }
+
 }
