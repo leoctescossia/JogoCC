@@ -7,6 +7,7 @@ TagManager:
   - WayPoints
   - CinemachineTarget
   - Dragon
+  - PauseMenu
   layers:
   - Default
   - TransparentFX
