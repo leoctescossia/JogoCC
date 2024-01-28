@@ -10,6 +10,7 @@ public class BulletProjectile : MonoBehaviour
     private Rigidbody bulletRigidbody;
 
     public int damageAmount = 20;
+
     // Start is called before the first frame update
     private void Awake()
     {
@@ -24,20 +25,25 @@ public class BulletProjectile : MonoBehaviour
         Destroy(gameObject, 10);
     }
 
-    private void OnTriggerEnter(Collider other){
-        if(other.GetComponent<BulletTarget>() != null){
-            //Hit target
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.GetComponent<BulletTarget>() != null)
+        {
+            // Hit target
             Instantiate(vfxHitGreen, transform.position, Quaternion.identity);
         }
-        else{
-            //Hit something
+        else
+        {
+            // Hit something
             Instantiate(vfxHitRed, transform.position, Quaternion.identity);
         }
-        //Destroy(gameObject);
-        Destroy(transform.GetComponent<Rigidbody>());
 
-        if(other.tag == "Dragon"){
+        if (other.tag == "Dragon")
+        {
             other.GetComponent<Dragon>().TakeDamage(damageAmount);
         }
+
+        // Destruir a bala após a colisão
+        Destroy(gameObject);
     }
 }
