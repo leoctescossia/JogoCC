@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class TextManager : MonoBehaviour
 {
-    public float sceneDuration = 120f;  // Duração da cena em segundos
+    public float sceneDuration; // Duração da cena em segundos
 
     private void Start()
     {

@@ -460,7 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8fa5236458561f41bc1716ba6860f34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneDuration: 120
+  sceneDuration: 2
 --- !u!4 &1512046140
 Transform:
   m_ObjectHideFlags: 0
