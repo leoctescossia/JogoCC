@@ -13,7 +13,10 @@ public class TextManager : MonoBehaviour
     private void LoadNextScene()
     {
         // Carrega a próxima cena
-        SceneManager.LoadScene("SampleScene"); // Substitua "NomeDaProximaCena" pelo nome da próxima cena
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SceneManager.LoadScene("SampleScene");
+        //SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+
     }
 
      public void EndScene()
