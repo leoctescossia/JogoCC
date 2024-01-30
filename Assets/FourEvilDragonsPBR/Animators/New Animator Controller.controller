@@ -279,6 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dabb1426b09fb1845aa6baa2c9a3247d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDamage: 10
 --- !u!1102 &621114299896040175
 AnimatorState:
   serializedVersion: 6

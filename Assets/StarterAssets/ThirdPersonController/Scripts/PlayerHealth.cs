@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,7 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public Slider healthSlider;
     public float maxHealth = 100f;
     private float currentHealth;
-
+    public Animator animator;
 
     public float CurrentHealth
     {
@@ -33,7 +35,15 @@ public class PlayerHealth : MonoBehaviour
         
         if (currentHealth <= 0)
         {
+            // Play death animation
+            animator.SetTrigger("die");
             Debug.Log("die");
+        }
+        else
+        {
+            // Play get hit animation
+            animator.SetTrigger("damage");
+            Debug.Log("damage");
         }
     }
 }

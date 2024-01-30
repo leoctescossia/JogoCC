@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vfxHitGreen: {fileID: 5601036089067188827, guid: 924e772d99fea934f8c7dff7c622e78a, type: 3}
   vfxHitRed: {fileID: 7022268795503775813, guid: 7377f38a94f13bd43924090d4a77f29e, type: 3}
+  damageAmount: 20
 --- !u!54 &2739989846321961131
 Rigidbody:
   m_ObjectHideFlags: 0

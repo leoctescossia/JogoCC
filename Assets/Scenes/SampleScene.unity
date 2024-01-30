@@ -9881,6 +9881,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 433141d01301f084e89fea7c561b03f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &4416926083347132246 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3940626506263020207, guid: 27e5ca2a85b57ee46b070086f0db5b5a, type: 3}
+  m_PrefabInstance: {fileID: 8795634461014693068}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4786986921926482154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10304,9 +10309,17 @@ PrefabInstance:
       value: PlayerArmature
       objectReference: {fileID: 0}
     - target: {fileID: 3757796263244643675, guid: 27e5ca2a85b57ee46b070086f0db5b5a, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 4416926083347132246}
+    - target: {fileID: 3757796263244643675, guid: 27e5ca2a85b57ee46b070086f0db5b5a, type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 1911435391}
+    - target: {fileID: 3940626506263020207, guid: 27e5ca2a85b57ee46b070086f0db5b5a, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5281782447058232701, guid: 27e5ca2a85b57ee46b070086f0db5b5a, type: 3}
       propertyPath: aim
       value: 0
