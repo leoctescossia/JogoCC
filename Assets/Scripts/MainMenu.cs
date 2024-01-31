@@ -10,6 +10,14 @@ public class MainMenu : MonoBehaviour
         //SceneManager.LoadScene("SampleScene");
         Time.timeScale = 1f;
     }
+    public void BackToMenu()
+    {  
+        SceneManager.LoadScene("Menu");
+    }
+    public void GoToComandos()
+    {
+        SceneManager.LoadScene("Comandos");
+    }
 
     public void QuitGame(){
         Application.Quit();
