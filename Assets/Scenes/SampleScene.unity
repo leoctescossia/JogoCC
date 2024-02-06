@@ -10936,8 +10936,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72e7e53e39432184087376c980f7fd02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vfxHitGreen: {fileID: 0}
-  vfxHitRed: {fileID: 0}
+  vfxHitGreen: {fileID: 5601036089067188827, guid: 924e772d99fea934f8c7dff7c622e78a, type: 3}
+  vfxHitRed: {fileID: 7022268795503775813, guid: 7377f38a94f13bd43924090d4a77f29e, type: 3}
   aimVirtualCamera: {fileID: 882019966}
   normalSensitivity: 1
   aimSensitivity: 0.5
@@ -10945,7 +10945,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   debugTransform: {fileID: 1879187064}
-  pfBulletProjectile: {fileID: 774309845548159048, guid: 50c4555cc7af6be4eaa940660508867d, type: 3}
+  pfBulletProjectile: {fileID: 510415742097124456, guid: 0e533f98513d29544a3dfa942abfaeb4, type: 3}
   spawnBulletPosition: {fileID: 6803105298255014673}
 --- !u!4 &3530132503693957155
 Transform:
@@ -11996,7 +11996,7 @@ Transform:
   m_GameObject: {fileID: 1579425330913243140}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.14, y: 1.58, z: 0.746}
+  m_LocalPosition: {x: -0.14, y: 1.787, z: 0.989}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
