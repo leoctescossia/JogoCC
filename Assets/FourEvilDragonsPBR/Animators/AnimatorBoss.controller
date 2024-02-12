@@ -221,7 +221,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Animator Controller
+  m_Name: AnimatorBoss
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: isPatrolling
@@ -267,19 +267,6 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!114 &282974133215739595
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dabb1426b09fb1845aa6baa2c9a3247d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackDamage: 5
 --- !u!1102 &621114299896040175
 AnimatorState:
   serializedVersion: 6
@@ -412,6 +399,19 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &2520123253094129374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d79c6f708629a5409a827e5031e6f65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 20
 --- !u!1102 &2941889715653720083
 AnimatorState:
   serializedVersion: 6
@@ -506,7 +506,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: 1178082168452483717}
   m_StateMachineBehaviours:
-  - {fileID: 282974133215739595}
+  - {fileID: 2520123253094129374}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1

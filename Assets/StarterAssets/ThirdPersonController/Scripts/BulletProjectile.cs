@@ -20,7 +20,7 @@ public class BulletProjectile : MonoBehaviour
     // Update is called once per frame
     private void Start()
     {
-        float speed = 10f;
+        float speed = 20f;
         bulletRigidbody.velocity = transform.forward * speed;
         Destroy(gameObject, 10);
     }
@@ -38,11 +38,17 @@ public class BulletProjectile : MonoBehaviour
             Instantiate(vfxHitRed, transform.position, Quaternion.identity);
         }
 
-        if (other.tag == "Dragon")
+        if (other.tag == "Dragon" )
         {
             other.GetComponent<Dragon>().TakeDamage(damageAmount);
+            
         }
-
+        
+        else if (other.tag == "DragonBoss")
+        {
+            other.GetComponent<DragonBoss>().TakeDamageBoss(damageAmount);
+        }
+        
         // Destruir a bala após a colisão
         Destroy(gameObject);
     }

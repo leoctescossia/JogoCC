@@ -8,6 +8,7 @@ TagManager:
   - CinemachineTarget
   - Dragon
   - PauseMenu
+  - DragonBoss
   layers:
   - Default
   - TransparentFX

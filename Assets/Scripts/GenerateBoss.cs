@@ -5,7 +5,7 @@ public class GenerateBoss : MonoBehaviour
 {
     public GameObject bossEnemy; // Adicione o prefab do Boss aqui
     private bool bossSpawned = false;
-
+    
     // Referência ao script GenerateEnemies
     private GenerateEnemies generateEnemies;
 
@@ -41,4 +41,7 @@ public class GenerateBoss : MonoBehaviour
 
         Instantiate(bossEnemy, new Vector3(xPos, y, zPos), Quaternion.identity);
     }
+
+    
+    
 }
