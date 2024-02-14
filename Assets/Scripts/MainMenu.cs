@@ -22,4 +22,9 @@ public class MainMenu : MonoBehaviour
     public void QuitGame(){
         Application.Quit();
     }
+
+    public void FasesGame(){
+        SceneManager.LoadScene("Fases");
+        Time.timeScale = 1f;
+    }
 }
