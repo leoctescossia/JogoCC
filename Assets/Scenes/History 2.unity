@@ -203,26 +203,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<align=center>Episode I\n<size=42>A Queda no Desconhecido</size></align>\n\nEm
-    uma noite comum, pessoas aleat\xF3rias estavam indo para casa quando, perplexos
-    observavam uma cena inusitada: um jovem ca\xEDdo, sendo brutalmente atacado por
-    desconhecidos bardeneiros, era ele nosso protagonista da hist\xF3ria, os bardeneiros
-    o identificaram como sua pr\xF3xima v\xEDtima.\n\r\nO ataque era brutal, mas
-    a situa\xE7\xE3o tomou um rumo ainda mais estranho quando, ap\xF3s um soco fatal,
-    o protagonista n\xE3o caiu, mas foi envolto por uma luz intensa. Quando a luz
-    se dissipou, ele havia desaparecido. Sem aviso, ele desapareceu misteriosamente
-    no meio da rua.\n\r\nDesconhecido para os telespectadores, o nosso protagonista,
-    cujo nome \xE9 desconhecido, foi transportado para uma c\xE1psula intergal\xE1ctica
-    pelos extraterrestres contrabandistas. Na gal\xE1xia distante, a c\xE1psula se
-    tornou o epicentro de uma fuga ca\xF3tica da pol\xEDcia intergal\xE1ctica, culminando
-    em uma queda acidental no desconhecido planeta alien\xEDgena de Namekusei.\n\nAgora,
-    o protagonista acorda em um mundo estranho e perigoso, sem mem\xF3ria de sua
-    vida anterior, apenas com a lembran\xE7a da viol\xEAncia que sofreu nas m\xE3os
-    dos bardeneiros. Armado com seu rifle de assalto, que misteriosamente apareceu
-    em suas m\xE3os, e vulner\xE1vel, ele se encontra em uma jornada de sobreviv\xEAncia,
-    enfrentando monstros e desvendando os mist\xE9rios deste planeta inexplorado.\r\n\r\nEnquanto
-    luta pela vida, o protagonista percebe que sua presen\xE7a neste mundo pode estar
-    ligada a algo mais profundo do que ele jamais imaginou. "
+  m_text: "<align=center>Episode II\r\n<size=55>O Pr\xF3ximo Destino</size></align>\r\n\r\nAp\xF3s
+    escapar dos perigos e desafios do planeta Namekuzei, nosso protagonista, cujo
+    nome continua um mist\xE9rio, encontra-se diante de uma nova jornada. Ele parte
+    para al\xE9m das fronteiras conhecidas, adentrando um novo planeta onde os mist\xE9rios
+    s\xE3o t\xE3o densos quanto a n\xE9voa que cobre suas florestas ancestrais.\r\n\r\nNeste
+    novo mundo, o protagonista se v\xEA confrontado com criaturas ainda mais estranhas
+    e amea\xE7adoras. Mas sua experi\xEAncia em Namekuzei o preparou para os perigos
+    que agora enfrenta. Com cada batalha, ele se torna mais habilidoso e determinado
+    a descobrir a verdade por tr\xE1s de sua pr\xF3pria exist\xEAncia.\r\n\r\nNo
+    entanto, \xE0 medida que o protagonista desvenda os segredos deste novo mundo,
+    ele se aproxima cada vez mais da verdade sobre sua pr\xF3pria identidade e o
+    prop\xF3sito de sua jornada. Ele descobre que sua presen\xE7a est\xE1 ligada
+    a eventos c\xF3smicos muito maiores do que jamais imaginou, e que seu destino
+    est\xE1 entrela\xE7ado com o destino deste planeta e de todos os que o habitam."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b500ebff1ae6fa40afdf8f34de7ba39, type: 2}
   m_sharedMaterial: {fileID: 3066862948700626938, guid: 6b500ebff1ae6fa40afdf8f34de7ba39, type: 2}
@@ -322,7 +316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1512046140}
-  - component: {fileID: 1512046139}
+  - component: {fileID: 1512046141}
   m_Layer: 0
   m_Name: TextManager
   m_TagString: Untagged
@@ -330,19 +324,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1512046139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1512046138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8fa5236458561f41bc1716ba6860f34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneDuration: 5
 --- !u!4 &1512046140
 Transform:
   m_ObjectHideFlags: 0
@@ -358,6 +339,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1512046141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512046138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663df3d586439194b98d8fc24eefacb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneDuration: 5
 --- !u!1 &1697827671
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,13 +6,16 @@ using UnityEngine.SceneManagement;
 public class FasesMenu : MonoBehaviour
 {
     public void Fase1(){
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("History");
+        Time.timeScale = 1f;
     }
     public void Fase2(){
-        SceneManager.LoadScene("Fase2");
+        SceneManager.LoadScene("History 2");
+        Time.timeScale = 1f;
     }
     public void Fase3(){
-        SceneManager.LoadScene("Fase3");
+        SceneManager.LoadScene("History 3");
+        Time.timeScale = 1f;
     }
     
 }

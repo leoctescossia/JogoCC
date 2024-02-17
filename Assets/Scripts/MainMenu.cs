@@ -13,10 +13,12 @@ public class MainMenu : MonoBehaviour
     public void BackToMenu()
     {  
         SceneManager.LoadScene("Menu");
+        Time.timeScale = 1f;
     }
     public void GoToComandos()
     {
         SceneManager.LoadScene("Comandos");
+        Time.timeScale = 1f;
     }
 
     public void QuitGame(){

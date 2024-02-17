@@ -203,26 +203,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<align=center>Episode I\n<size=42>A Queda no Desconhecido</size></align>\n\nEm
-    uma noite comum, pessoas aleat\xF3rias estavam indo para casa quando, perplexos
-    observavam uma cena inusitada: um jovem ca\xEDdo, sendo brutalmente atacado por
-    desconhecidos bardeneiros, era ele nosso protagonista da hist\xF3ria, os bardeneiros
-    o identificaram como sua pr\xF3xima v\xEDtima.\n\r\nO ataque era brutal, mas
-    a situa\xE7\xE3o tomou um rumo ainda mais estranho quando, ap\xF3s um soco fatal,
-    o protagonista n\xE3o caiu, mas foi envolto por uma luz intensa. Quando a luz
-    se dissipou, ele havia desaparecido. Sem aviso, ele desapareceu misteriosamente
-    no meio da rua.\n\r\nDesconhecido para os telespectadores, o nosso protagonista,
-    cujo nome \xE9 desconhecido, foi transportado para uma c\xE1psula intergal\xE1ctica
-    pelos extraterrestres contrabandistas. Na gal\xE1xia distante, a c\xE1psula se
-    tornou o epicentro de uma fuga ca\xF3tica da pol\xEDcia intergal\xE1ctica, culminando
-    em uma queda acidental no desconhecido planeta alien\xEDgena de Namekusei.\n\nAgora,
-    o protagonista acorda em um mundo estranho e perigoso, sem mem\xF3ria de sua
-    vida anterior, apenas com a lembran\xE7a da viol\xEAncia que sofreu nas m\xE3os
-    dos bardeneiros. Armado com seu rifle de assalto, que misteriosamente apareceu
-    em suas m\xE3os, e vulner\xE1vel, ele se encontra em uma jornada de sobreviv\xEAncia,
-    enfrentando monstros e desvendando os mist\xE9rios deste planeta inexplorado.\r\n\r\nEnquanto
-    luta pela vida, o protagonista percebe que sua presen\xE7a neste mundo pode estar
-    ligada a algo mais profundo do que ele jamais imaginou. "
+  m_text: "<align=center>Episode III\n<size=50>A Ascens\xE3o do Estelar</size></align>\n\nAp\xF3s
+    desvendar os mist\xE9rios do planeta desconhecido e escapar das garras implac\xE1veis
+    dos bardeneiros, nosso protagonista, cujo nome ainda permanece um enigma, se
+    encontra diante do pr\xF3ximo cap\xEDtulo de sua jornada. Ele embarca em uma
+    busca \xE9pica para desvendar os segredos do cosmos e encontrar seu verdadeiro
+    lugar no universo.\r\n\r\nGuiado por pistas deixadas para tr\xE1s pelas civiliza\xE7\xF5es
+    antigas do planeta anterior, o protagonista parte em uma viagem atrav\xE9s das
+    estrelas, explorando sistemas solares distantes e gal\xE1xias desconhecidas.
+    Ao longo do caminho, ele encontra aliados inesperados e desafios inimagin\xE1veis,
+    cada um testando sua coragem e determina\xE7\xE3o at\xE9 o limite.\r\n\r\nEnquanto
+    investiga os mist\xE9rios do cosmos, o protagonista descobre uma conspira\xE7\xE3o
+    sombria que amea\xE7a o equil\xEDbrio de todo o universo. Antigas for\xE7as malignas
+    despertam, determinadas a desencadear o caos e destrui\xE7\xE3o em uma escala
+    nunca antes vista. O protagonista se v\xEA no centro de uma batalha c\xF3smica
+    entre o bem e o mal, onde o destino de in\xFAmeras vidas est\xE1 em jogo.\n\r\n\xC0
+    medida que o sol se p\xF5e sobre o \xFAltimo campo de batalha, o protagonista
+    se ergue como um farol de esperan\xE7a em um universo mergulhado na escurid\xE3o.
+    Sua jornada est\xE1 longe de terminar, mas ele sabe que, enquanto houver estrelas
+    brilhando no c\xE9u, a luz da esperan\xE7a nunca se extinguir\xE1."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b500ebff1ae6fa40afdf8f34de7ba39, type: 2}
   m_sharedMaterial: {fileID: 3066862948700626938, guid: 6b500ebff1ae6fa40afdf8f34de7ba39, type: 2}
@@ -322,7 +321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1512046140}
-  - component: {fileID: 1512046139}
+  - component: {fileID: 1512046141}
   m_Layer: 0
   m_Name: TextManager
   m_TagString: Untagged
@@ -330,19 +329,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1512046139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1512046138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8fa5236458561f41bc1716ba6860f34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneDuration: 5
 --- !u!4 &1512046140
 Transform:
   m_ObjectHideFlags: 0
@@ -358,6 +344,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1512046141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512046138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2eb21a19d9894e4db2e0e1f7610aa4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneDuration: 5
 --- !u!1 &1697827671
 GameObject:
   m_ObjectHideFlags: 0

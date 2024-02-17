@@ -48,6 +48,14 @@ public class BulletProjectile : MonoBehaviour
         {
             other.GetComponent<DragonBoss>().TakeDamageBoss(damageAmount);
         }
+        else if (other.tag == "DragonRed")
+        {
+            other.GetComponent<DragonRed>().TakeDamage(damageAmount);
+        }
+        else if (other.tag == "DragonGreen")
+        {
+            other.GetComponent<DragonGreen>().TakeDamage(damageAmount);
+        }
         
         // Destruir a bala após a colisão
         Destroy(gameObject);

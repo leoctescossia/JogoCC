@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TextManager : MonoBehaviour
+public class TextManager1 : MonoBehaviour
 {
     public float sceneDuration; // Duração da cena em segundos
 
@@ -14,7 +14,7 @@ public class TextManager : MonoBehaviour
     {
         // Carrega a próxima cena
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Fase2");
         //SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
 
     }
