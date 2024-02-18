@@ -20,6 +20,7 @@ public class GameOver : MonoBehaviour
             // Se sim, chama a função de Game Over
             CallGameOver();
         }
+
     }
 
     public void CallGameOver()
@@ -27,6 +28,9 @@ public class GameOver : MonoBehaviour
         gameoverMenu.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+        
+        // Chama o método para voltar para o menu após 5 segundos
+        Invoke("GameOverBackToMenu", 5f);
     }
 
     public void RestartGame()

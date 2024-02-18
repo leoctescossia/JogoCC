@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
     public static bool isPaused;
+    public PlayerHealth playerHealth;  // Referência ao componente de saúde do jogador
 
     void Start()
     {
@@ -15,18 +16,31 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        // Verifica se a vida do jogador é maior que 0
+        if (playerHealth.CurrentHealth > 0)
         {
-            if (isPaused)
+            // Se sim, permite a interação com o botão "esc"
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                ResumeGame();
+                if (isPaused)
+                {
+                    ResumeGame();
+                }
+                else
+                {
+                    PausedGame();
+                }
             }
-            else
+
+            // Verifica se o jogo perdeu o foco
+            if (!Application.isFocused && isPaused)
             {
-                PausedGame();
+                // Se o jogo perdeu o foco e está pausado, retoma o jogo
+                ResumeGame();
             }
         }
     }
+
 
     void OnApplicationPause(bool pauseStatus)
     {

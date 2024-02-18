@@ -42,7 +42,7 @@ public class CongratulationsMessage : MonoBehaviour
         if (generateEnemies != null)
         {
             // Verifica se o boss já foi spawnado e se o número de mobs mortos atingiu o limite
-            if (generateEnemies.GetMobsKilled() == 100)
+            if (generateEnemies.GetMobsKilled() >= 51)
             {
                 ShowCongratulationsMessage();
             }
