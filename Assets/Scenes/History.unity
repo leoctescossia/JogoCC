@@ -222,7 +222,7 @@ MonoBehaviour:
     em suas m\xE3os, e vulner\xE1vel, ele se encontra em uma jornada de sobreviv\xEAncia,
     enfrentando monstros e desvendando os mist\xE9rios deste planeta inexplorado.\r\n\r\nEnquanto
     luta pela vida, o protagonista percebe que sua presen\xE7a neste mundo pode estar
-    ligada a algo mais profundo do que ele jamais imaginou. "
+    ligada a algo mais profundo do que ele jamais. imaginou. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b500ebff1ae6fa40afdf8f34de7ba39, type: 2}
   m_sharedMaterial: {fileID: 3066862948700626938, guid: 6b500ebff1ae6fa40afdf8f34de7ba39, type: 2}

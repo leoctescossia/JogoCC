@@ -9,6 +9,14 @@ public class TextManager2 : MonoBehaviour
     {
         Invoke("LoadNextScene", sceneDuration);
     }
+    private void Update()
+    {
+        // Verifica se a tecla Enter foi pressionada
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            LoadNextScene();
+        }
+    }
 
     private void LoadNextScene()
     {
