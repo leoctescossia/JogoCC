@@ -21,7 +21,7 @@ public class GenerateBoss : MonoBehaviour
         while (true)
         {
             // Verifica se o boss já foi spawnado e se o número de mobs mortos atingiu o limite
-            if (!bossSpawned && generateEnemies.GetMobsKilled() >= 50)
+            if (!bossSpawned && generateEnemies.GetMobsKilled() >= 20)
             {
                 Debug.Log("Spawnando Boss...");
                 SpawnBoss();

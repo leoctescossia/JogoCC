@@ -6,7 +6,7 @@ public class GenerateEnemies : MonoBehaviour
     public GameObject theEnemy;
     public int xPos;
     public int zPos;
-    int maxEnemyCount = 49;
+    int maxEnemyCount = 19;
     private int mobsKilled;
     
 
